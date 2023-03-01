@@ -5,13 +5,13 @@ from io import BytesIO
 
 #API_TWITTER
 
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = 'J'
+consumer_key = 'fill with your key'
+consumer_secret = 'fill with your key'
+access_token = 'fill with your key'
+access_token_secret = 'fill with your key'
 
 #API_NASA
-api_nasa = ''
+api_nasa = 'fill with your key' # EXAMPLE = api_nasa = https://api.nasa.gov/planetary/apod?api_key=VJXAfwTXvBXXKCegHuFboXSMc8xVAaht13vfcXXX
 
 #AUTH API TWITTER
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
